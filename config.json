@@ -1,0 +1,17 @@
+{
+  "sources": {
+    "server": "./src/server",
+    "client": "./src/client"
+  },
+  "targets": {
+    "server": "./dist/server",
+    "client": "./dist/client"
+  },
+  "server": {
+    "port": 8080,
+    "mainFile": "app.js"
+  },
+  "api": {
+    "pathPrefix": "/api"
+  }
+}
